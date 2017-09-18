@@ -1,15 +1,12 @@
-public class DebugPlay
-{
-   private String title;
+public class DebugPlay {
+   protected String title;
    protected String author;
 
-   public FixDebugPlay(String title, String author)
-   {
-      title = title;
-      author = author;
+   public DebugPlay(String title, String author) {
+      this.title = title;
+      this.author = author;
    }
-   public void display()
-   {
+   public void display() {
       System.out.println("The performance is " + title +
         " by " + author);
    }
